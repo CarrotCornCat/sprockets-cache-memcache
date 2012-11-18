@@ -22,4 +22,4 @@ env.cache = Sprockets::Cache::MemcacheStore.new(memcache, "sprockets")
 # ...
 ```
 
-Where the first argument is a Memcache::Client connection, and the other (which is optional) is a key prefix.
+Where the first argument is a Memcache or Dalli::Client connection, and the other (which is optional) is a key prefix.
